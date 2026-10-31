@@ -1,0 +1,9 @@
+{
+  "winner_model": "Step 7 (Ridge)",
+  "ridge_mape": 22.07,
+  "lstm_mape": 29.79,
+  "ensemble_mape": 25.02,
+  "target_mape": 12.0,
+  "target_achieved": false,
+  "test_days": 60
+}

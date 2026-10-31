@@ -1,0 +1,16 @@
+{
+  "total_skus_managed": 657,
+  "service_level_target": "95%",
+  "service_level_z": 1.645,
+  "annual_holding_rate": "20%",
+  "status_breakdown": {
+    "HEALTHY_STOCK": 347,
+    "REORDER_NOW": 148,
+    "CRITICAL_STOCKOUT": 90,
+    "REORDER_SOON": 72
+  },
+  "total_restock_budget_gbp": 363819.99,
+  "urgent_restock_budget_gbp": 315603.88,
+  "critical_stockout_skus": 90,
+  "overstocked_skus": 0
+}

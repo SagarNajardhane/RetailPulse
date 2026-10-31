@@ -1,0 +1,11 @@
+{
+    "accuracy": 0.715209254848588,
+    "precision": 0.7023699599876885,
+    "recall": 0.7634660421545667,
+    "f1_score": 0.7316447579352355,
+    "roc_auc": 0.7867842641201654,
+    "total_customers_scored": 5878,
+    "high_risk_count": 1644,
+    "medium_risk_count": 2412,
+    "low_risk_count": 1822
+}

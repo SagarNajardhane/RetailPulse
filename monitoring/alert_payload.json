@@ -1,0 +1,13 @@
+{
+    "timestamp": "2026-10-31 19:26:07",
+    "system_health": "RED",
+    "summary": "1 active alerts detected during health check.",
+    "alerts": [
+        {
+            "severity": "CRITICAL",
+            "module": "Data Drift Monitor",
+            "message": "Data Drift detected in 2 features (Monetary, Avg_Order_Value). Model retraining recommended.",
+            "action": "Trigger Automated Pipeline Retraining (Step 16)"
+        }
+    ]
+}

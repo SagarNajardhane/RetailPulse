@@ -1,0 +1,28 @@
+{
+  "algorithm": "KMeans",
+  "n_clusters": 4,
+  "silhouette_score": 0.3281,
+  "inertia": 17927.93,
+  "features_used": [
+    "Recency",
+    "Frequency",
+    "Monetary",
+    "Avg_Order_Value",
+    "Lifespan_Days",
+    "Product_Diversity"
+  ],
+  "target_silhouette": 0.45,
+  "target_achieved": false,
+  "cluster_names": {
+    "0": "\ud83d\udfe1 At-Risk / Dormant Customers",
+    "1": "\ud83d\udd35 New / Low-Value Customers",
+    "2": "\ud83d\udc8e VIP Loyal Customers",
+    "3": "\ud83d\udd35 New / Low-Value Customers"
+  },
+  "cluster_sizes": {
+    "0": 2856,
+    "1": 615,
+    "2": 14,
+    "3": 2393
+  }
+}

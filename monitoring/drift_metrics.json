@@ -1,0 +1,39 @@
+{
+    "total_features": 4,
+    "drifted_features_count": 2,
+    "overall_drift_status": "ALERT",
+    "features": {
+        "Recency": {
+            "ks_statistic": 0.02449812861517523,
+            "p_value": 0.3410823689703259,
+            "wasserstein_distance": 5.323239197005783,
+            "psi": 0.011869720299534382,
+            "drift_detected": false,
+            "status": "\ud83d\udfe2 NO DRIFT"
+        },
+        "Frequency": {
+            "ks_statistic": 0.013950323239197007,
+            "p_value": 0.9373427736416895,
+            "wasserstein_distance": 0.5556311670636236,
+            "psi": 0.004476260661521024,
+            "drift_detected": false,
+            "status": "\ud83d\udfe2 NO DRIFT"
+        },
+        "Monetary": {
+            "ks_statistic": 0.058863559033684926,
+            "p_value": 7.527201038114968e-05,
+            "wasserstein_distance": 554.2850639673367,
+            "psi": 0.017875427261187474,
+            "drift_detected": true,
+            "status": "\ud83d\udd34 DRIFT DETECTED"
+        },
+        "Avg_Order_Value": {
+            "ks_statistic": 0.09118747873426336,
+            "p_value": 4.7281417743070575e-11,
+            "wasserstein_distance": 53.81434475859356,
+            "psi": 0.05260024313310105,
+            "drift_detected": true,
+            "status": "\ud83d\udd34 DRIFT DETECTED"
+        }
+    }
+}
